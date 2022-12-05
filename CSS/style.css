@@ -1,0 +1,224 @@
+/*                                                     Banner */
+.banner_container {
+  /* background-color: aquamarine; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  text-align: center;
+  padding: 10px 50px;
+  color: whitesmoke;
+}
+.banner2{
+  background-image: url("../Image/offer-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 50%;
+  margin: 5px;
+  /* content: "";
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1; */
+}
+.banner3 {
+  background-image: url("../Image/offer-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 50%;
+  margin: 5px;
+  /* content: "";
+    position: absolute;
+    opacity: 0.5;
+    z-index: -1; */
+}
+.save {
+  font-size: 40px;
+}
+.special_offer {
+  font-size: 50px;
+}
+.shopp {
+  border: solid 1px white;
+  background: none;
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+  margin: 25px;
+}
+.shopp:hover {
+  cursor: pointer;
+  color: black;
+  background-color: #ffd333;
+  border: black 1px solid;
+}
+/*                                                       Quality */
+#quality {
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px 60px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.ico {
+  color: #ffd333;
+  padding: 0px 10px;
+}
+/*                                    Categories */
+.categories_container {
+  /* background-color: aquamarine; */
+  width: 99%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+#categories {
+  text-align: center;
+  padding: 20px 0px;
+}
+.categories-img {
+  width: 420px;
+}
+.categories-img:hover {
+  transform: scale(1.2, 1.2);
+  transition: 0.8s;
+  cursor: pointer;
+}
+.categories_product_name {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  padding: 30px 0px;
+  cursor: pointer;
+}
+/*                                Categories End */
+/*                                            Offer */
+#offer_container {
+  display: flex;
+  padding: 0px 60px;
+}
+.offer_container1 {
+  background-color: #edf1ff;
+  display: flex;
+  margin: 10px;
+}
+.offer_img {
+  height: 300px;
+  padding: 20px 50px 0px 50px;
+}
+.offer_item {
+  text-align: center;
+  padding: 50px 20px;
+}
+.offer_order {
+  font-size: 20px;
+}
+.offer_collection {
+  font-size: 42px;
+}
+.offer_shop {
+  border: solid 1px black;
+  background: none;
+  font-size: 25px;
+  color: black;
+  padding: 5px;
+  margin-top: 50px;
+}
+.offer_shop:hover {
+  cursor: pointer;
+  background-color: #ffd333;
+}
+/*                                               Trandy Product */
+#trandy_product {
+  text-align: center;
+  margin: 20px;
+}
+.trandy_container {
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+.trandy_item {
+  margin: 10px;
+}
+.trandy-img {
+  width: 280px;
+}
+.trandy-img:hover {
+  transform: scale(1.2, 1.2);
+  transition: 0.8s;
+  cursor: pointer;
+}
+.trandy-para {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+  cursor: pointer;
+}
+.view_cart_container {
+  display: flex;
+  background-color: #edf1ff;
+  font-size: 15px;
+  text-align: center;
+}
+.view {
+  padding: 10px 24px;
+}
+.view:hover {
+  background-color: #ffd333;
+  cursor: pointer;
+}
+.cart {
+  padding: 10px 24px;
+}
+.cart:hover {
+  background-color: #ffd333;
+  cursor: pointer;
+}
+/*                                            Stay Updated */
+#stay_container {
+  background-color: #edf1ff;
+  text-align: center;
+  padding: 30px 100px;
+}
+#stay_container h1{
+  padding: 10px 0px;
+}
+#email {
+  padding: 10px 300px 10px 30px;
+  margin: 30px 0px;
+}
+#email::placeholder {
+  font-size: 16px;
+}
+#stay_button {
+  padding: 10px;
+  border: 1px black solid;
+  font-size: 20px;
+}
+#stay_button:hover {
+  background-color: #ffd333;
+  border: 1px black solid;
+  cursor: pointer;
+}
+/*                                       Just Arrived */
+/* Just Arrived same as trandy product */
+/*                                       connection */
+#connection_container {
+  display: flex;
+  justify-content: center;
+  padding: 0px 60px;
+  flex-wrap: wrap;
+}
+.connection_img {
+  width: 150px;
+  margin: 50px 25px;
+  border: #6c757d50 1px solid;
+  cursor: pointer;
+}

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS/shop.css">
+  <link rel="stylesheet" href="CSS/Header-Footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+  <!--                                                 Nav-1 -->
+  <nav class="container">
+    <div>
+      <ul>
+        <li>
+          <a href="about.html" class="list-item">About</a>
+        </li>
+        <li>
+          <a href="contact.html" class="list-item">Contact</a>
+        </li>
+        <li>
+          <a href="contact.html" class="list-item">Help</a>
+        </li>
+        <li>
+          <a href="about.html" class="list-item">FAQs</a>
+        </li>
+      </ul>
+    </div>
+    <div class="account_container">
+      <div class="account">
+        <p>My Account</p>
+        <div class="account_item">
+          <p>
+            <a href="#">Sign in</a>
+          </p>
+          <p>
+            <a href="#">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--                                                     Nav-2 -->
+  <nav class="container_1">
+    <div>
+      <a href="index.html"> <img src="Image/Logo.jpg" alt="Logo" /></a>
+    </div>
+    <div>
+      <input type="text" name="product" placeholder="Search for Products" />
+      <button type="submit">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </div>
+    <div>
+      <p>Customer Service</p>
+      <p>+0123456789</p>
+    </div>
+    </div>
+  </nav>
+  <!--                                                   Nav-3 -->
+  <nav class="container_2">
+    <div>
+      <div>
+        <p><i class="fa-solid fa-bars "></i>Categories</p>
+        <div class="categories_list">
+          <p>
+            <a href="#">Dresses</a>
+          </p>
+          <p>
+            <a href="#">Shirts</a>
+          </p>
+          <p>
+            <a href="#">Jeans</a>
+          </p>
+          <p>
+            <a href="#">Swimwear</a>
+          </p>
+          <p>
+            <a href="#">Sleepwear</a>
+          </p>
+          <p>
+            <a href="#">Sportswear</a>
+          </p>
+          <p>
+            <a href="#">Jumpsuits</a>
+          </p>
+          <p>
+            <a href="#">Blazers</a>
+          </p>
+          <p>
+            <a href="#">Shoes</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="menu">
+      <a href="index.html" class="menu_item">Home</a>
+      <a href="shop.html" class="menu_item">Shop</a>
+      <a href="shop details.html" class="menu_item">Shop Details</a>
+      <a href="about.html" class="menu_item">About</a>
+      <a href="contact.html" class="menu_item">Contact</a>
+    </div>
+    <div>
+      <button type="submit"><i class="fa-solid fa-heart"></i></button>
+      <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+  </nav>
+  <!--                                                 Shop Menu -->
+  <div id="smenu">
+    <p class="smen">Home </p>
+    <p class="smen"> / Shop </p>
+    <p> / Shop List</p>
+  </div>
+  <!--                                     Products(Grid concept) -->
+  <div id="sproduct">
+    <div class="product" id="prpduct1">
+      <div id="pmenuu">
+        <div>
+          <p><i class="fa-solid fa-table icooo"></i><i class="fa-solid fa-list icooo"></i></p>
+        </div>
+        <div>
+          <form action="">
+            <label for="sort">Sort:</label>
+            <select name="sort">
+              <option value="latest">Latest</option>
+              <option value="popularity">Popularity</option>
+              <option value="rating">Best Rating</option>
+            </select>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="product" id="prpduct2">
+      <div class="pcon">
+        <p class="fbp">FILTER BY PRICE - - - - - - -</p>
+        <div class="filter">
+          <input type="checkbox" name="aprice" id="">
+          <label for="">All Price.........................<span class="proda prodno">1200</span></label>
+        </div>
+        <div class="filter">
+          <input type="checkbox" name="aprice" id="">
+          <label for="">₹0 - ₹500..........................<span class="prodb prodno">540</span></label>
+        </div>
+        <div class="filter">
+          <input type="checkbox" name="aprice" id="">
+          <label for="">₹500 - ₹1000....................<span class="prodc prodno">300</span></label>
+        </div>
+        <div class="filter">
+          <input type="checkbox" name="aprice" id="">
+          <label for="">₹1000 - ₹2000..................<span class="prodd prodno">260</span></label>
+        </div>
+        <div class="filter">
+          <input type="checkbox" name="aprice" id="">
+          <label for="">₹2000 - ₹5000....................<span class="prode prodno">72</span></label>
+        </div>
+        <div class="filter">
+          <input type="checkbox" name="aprice" id="">
+          <label for=""> Above ₹5000.....................<span class="prodf prodno">28</span></label>
+        </div>
+      </div>
+      <div class="pcon">
+        <p class="fbp">FILTER BY COLOR - - - - - - -</p>
+        <div class="filter">
+          <input type="checkbox" name="aprice" id="">
+          <label for="">All Color........................<span class="proda prodno">1200</span></label>
+        </div>
+        <div class="filter">
+          <input type="checkbox" name="aprice" id="">
+          <label for="">Black...............................<span class="prodb prodno">540</span></label>
+        </div>
+        <div class="filter">
+          <input type="checkbox" name="aprice" id="">
+          <label for="">White..............................<span class="prodc prodno">300</span></label>
+        </div>
+        <div class="filter">
+          <input type="checkbox" name="aprice" id="">
+          <label for="">Red.................................<span class="prodd prodno">260</span></label>
+        </div>
+        <div class="filter">
+          <input type="checkbox" name="aprice" id="">
+          <label for="">Green...............................<span class="prode prodno">72</span></label>
+        </div>
+        <div class="filter">
+          <input type="checkbox" name="aprice" id="">
+          <label for="">Yellow.............................<span class="prodf prodno">28</span></label>
+        </div>
+      </div>
+      <div class="pcon">
+        <p class="fbp">FILTER BY SIZE - - - - - - -</p>
+        <div class="filter">
+          <input type="checkbox" name="aprice" id="">
+          <label for="">All size......................<span class="proda prodno">1200</span></label>
+        </div>
+        <div class="filter">
+          <input type="checkbox" name="aprice" id="">
+          <label for="">XS...............................<span class="prodb prodno">540</span></label>
+        </div>
+        <div class="filter">
+          <input type="checkbox" name="aprice" id="">
+          <label for="">S.................................<span class="prodc prodno">300</span></label>
+        </div>
+        <div class="filter">
+          <input type="checkbox" name="aprice" id="">
+          <label for="">M...............................<span class="prodd prodno">260</span></label>
+        </div>
+        <div class="filter">
+          <input type="checkbox" name="aprice" id="">
+          <label for="">L..................................<span class="prode prodno">72</span></label>
+        </div>
+        <div class="filter">
+          <input type="checkbox" name="aprice" id="">
+          <label for=""> XL...............................<span class="prodf prodno">28</span></label>
+        </div>
+      </div>
+    </div>
+    <div class="product" id="prpduct3">
+      <table id="tra-tab" cellspacing="40">
+        <tr>
+          <td class="tra-td">
+            <img src="Image/product-1 (1).jpg" alt="" class="tra-img">
+            <p class="tra-para">Camera</p>
+            <div class="vi-ca">
+              <p class="view"><i class="fa-solid fa-eye icoon"></i>View Detail</p>
+              <p class="cart"><i class="fa-solid fa-cart-shopping icoon"></i>Add to Cart</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="product" id="prpduct4">
+      <table id="tra-tab" cellspacing="40">
+        <tr>
+          <td class="tra-td">
+            <img src="Image/product-2 (1).jpg" alt="" class="tra-img">
+            <p class="tra-para">Shirt</p>
+            <div class="vi-ca">
+              <p class="view"><i class="fa-solid fa-eye icoon"></i>View Detail</p>
+              <p class="cart"><i class="fa-solid fa-cart-shopping icoon"></i>Add to Cart</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="product" id="prpduct5">
+      <table id="tra-tab" cellspacing="40">
+        <tr>
+          <td class="tra-td">
+            <img src="Image/product-3 (1).jpg" alt="" class="tra-img">
+            <p class="tra-para">Lamp</p>
+            <div class="vi-ca">
+              <p class="view"><i class="fa-solid fa-eye icoon"></i>View Detail</p>
+              <p class="cart"><i class="fa-solid fa-cart-shopping icoon"></i>Add to Cart</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="product" id="prpduct6">
+      <table id="tra-tab" cellspacing="40">
+        <tr>
+          <td class="tra-td">
+            <img src="Image/product-4 (1).jpg" alt="" class="tra-img">
+            <p class="tra-para">Shoe</p>
+            <div class="vi-ca">
+              <p class="view"><i class="fa-solid fa-eye icoon"></i>View Detail</p>
+              <p class="cart"><i class="fa-solid fa-cart-shopping icoon"></i>Add to Cart</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="product" id="prpduct7">
+      <table id="tra-tab" cellspacing="40">
+        <tr>
+          <td class="tra-td">
+            <img src="Image/product-5 (1).jpg" alt="" class="tra-img">
+            <p class="tra-para">Drone</p>
+            <div class="vi-ca">
+              <p class="view"><i class="fa-solid fa-eye icoon"></i>View Detail</p>
+              <p class="cart"><i class="fa-solid fa-cart-shopping icoon"></i>Add to Cart</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="product" id="prpduct8">
+      <table id="tra-tab" cellspacing="40">
+        <tr>
+          <td class="tra-td">
+            <img src="Image/product-6 (1).jpg" alt="" class="tra-img">
+            <p class="tra-para">Watch</p>
+            <div class="vi-ca">
+              <p class="view"><i class="fa-solid fa-eye icoon"></i>View Detail</p>
+              <p class="cart"><i class="fa-solid fa-cart-shopping icoon"></i>Add to Cart</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="product" id="prpduct9">
+      <table id="tra-tab" cellspacing="40">
+        <tr>
+          <td class="tra-td">
+            <img src="Image/product-7 (1).jpg" alt="" class="tra-img">
+            <p class="tra-para">Kurti</p>
+            <div class="vi-ca">
+              <p class="view"><i class="fa-solid fa-eye icoon"></i>View Detail</p>
+              <p class="cart"><i class="fa-solid fa-cart-shopping icoon"></i>Add to Cart</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="product" id="prpduct10">
+      <table id="tra-tab" cellspacing="40">
+        <tr>
+          <td class="tra-td">
+            <img src="Image/product-8 (1).jpg" alt="" class="tra-img">
+            <p class="tra-para">Face Wash</p>
+            <div class="vi-ca">
+              <p class="view"><i class="fa-solid fa-eye icoon"></i>View Detail</p>
+              <p class="cart"><i class="fa-solid fa-cart-shopping icoon"></i>Add to Cart</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="product" id="prpduct11">
+      <table id="tra-tab" cellspacing="40">
+        <tr>
+          <td class="tra-td">
+            <img src="Image/product-9.jpg" alt="" class="tra-img">
+            <p class="tra-para">Chair</p>
+            <div class="vi-ca">
+              <p class="view"><i class="fa-solid fa-eye icoon"></i>View Detail</p>
+              <p class="cart"><i class="fa-solid fa-cart-shopping icoon"></i>Add to Cart</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="product" id="prpduct12">
+      <div>
+        <ul id="liiii">
+          <li class="li-it">Previous</li>
+          <li class="li-it">1</li>
+          <li class="li-it">2</li>
+          <li class="li-it">3</li>
+          <li class="li-it">Next</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--                                           Footer1 -->
+  <hr>
+  <div id="footer_container">
+    <div class="footer_div">
+      <h3 class="footer_heading">GET IN TOUCH</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ea qui tempora quod nihil, molestiae
+        tempore porro. Quibusdam, quasi nisi!</p>
+      <p class="footer_icon"><i class="fa-solid fa-location-dot"></i> Agarpara,Kolkata-700109</p>
+      <p class="footer_icon aa"><i class="fa-solid fa-envelope"></i> Raben.haldar.1993@gmail.com</p>
+      <p class="footer_icon"><i class="fa-solid fa-phone"></i>+91 9609034547</p>
+    </div>
+    <div class="footer_div">
+      <h3 class="footer_heading">QUICK SHOP</h3>
+      <div class="footer_menu_container">
+        <a href="index.html" class="footer_menuu"><i class="fa-solid fa-angles-right"></i> Home</a>
+        <a href="shop.html" class="footer_menuu"><i class="fa-solid fa-angles-right"></i> Shop</a>
+        <a href="shop details.html" class="footer_menuu"><i class="fa-solid fa-angles-right"></i> Shop Details</a>
+        <a href="about.html" class="footer_menuu"><i class="fa-solid fa-angles-right"></i> About us</a>
+        <a href="contact.html" class="footer_menuu"><i class="fa-solid fa-angles-right"></i> Contact</a>
+      </div>
+    </div>
+    <div class="footer_div">
+      <h3 class="footer_heading">NEWSLETTER</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aliquam ipsum ut in totam eius porro vel
+        eveniet velit repudiandae?</p>
+      <input type="email" name="mail" id="footer_email" placeholder="Your E-mail Address">
+      <button id="footer_signup">Sign Up</button>
+      <h4 class="footer_heading">FOLLOW US</h4>
+      <a href="#"><i class="fa-brands fa-twitter footer_icon2"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook footer_icon2"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin footer_icon2"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram footer_icon2"></i></a>
+    </div>
+  </div>
+  <hr>
+  <!--                                                                   Footer2 -->
+  <div id="footer2_container">
+    <p id="design">Designed by Raben Haldar</p>
+  </div>
+
+</body>
+
+</html>
